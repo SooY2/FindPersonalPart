@@ -36,6 +36,13 @@ const GlobalStyles = createGlobalStyle`
       sans-serif;
   }
 
+  button{
+    cursor: pointer;
+    &:hover{
+      background-color: #99A5DC;
+    }
+  }
+
  `;
 
 export default GlobalStyles;

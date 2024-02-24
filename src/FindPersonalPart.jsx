@@ -1,12 +1,23 @@
 import styled from 'styled-components';
 import BeginPage from './BeginPage';
+import { useState } from 'react';
 
 const FindPersonalPart = () => {
-  return (
-    <Container>
-      <BeginPage></BeginPage>
-    </Container>
-  );
+  const [page, setPage] = useState(0);
+
+  const renderPage = (thispage) => {
+    switch (thispage) {
+      case 0:
+        return <BeginPage setPage={setPage} />;
+      case 1:
+        return <></>;
+      case 2:
+        return <>2</>;
+      default:
+        break;
+    }
+  };
+  return <Container>{renderPage(page)}</Container>;
 };
 
 export default FindPersonalPart;
