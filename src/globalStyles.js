@@ -8,9 +8,16 @@ const GlobalStyles = createGlobalStyle`
     background-color: #030D19;
   }
 
-
   *{
     box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+
+  body{
     font-family:
       'Pretendard Variable',
       Pretendard,

@@ -1,7 +1,12 @@
 import styled from 'styled-components';
+import BeginPage from './BeginPage';
 
 const FindPersonalPart = () => {
-  return <Container>FindPersonalPart</Container>;
+  return (
+    <Container>
+      <BeginPage></BeginPage>
+    </Container>
+  );
 };
 
 export default FindPersonalPart;
@@ -12,9 +17,4 @@ const Container = styled.div`
   max-width: 480px;
   margin: 0 auto;
   overflow: hidden;
-  background: radial-gradient(
-    138.12% 57.16% at 50% 50%,
-    rgba(76, 103, 241, 0.44) 1%,
-    #030d19 45%
-  );
 `;
