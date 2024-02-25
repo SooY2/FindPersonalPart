@@ -2,14 +2,15 @@ import styled from 'styled-components';
 import { Logo } from '../assets/svgs/0_index';
 import { beginLion } from '../assets/imgs/0_index';
 import PropTypes from 'prop-types';
+import * as St from '../commonStyles';
 
 const BeginPage = ({ setPage }) => {
   return (
-    <Container>
-      <StLogo>
+    <St.Container>
+      <St.StLogo>
         <Logo />
         <h1>LIKELION SSU</h1>
-      </StLogo>
+      </St.StLogo>
       <StEllipse>
         <StLion src={beginLion} alt='likelion' />
       </StEllipse>
@@ -33,7 +34,7 @@ const BeginPage = ({ setPage }) => {
       >
         START
       </StBtn>
-    </Container>
+    </St.Container>
   );
 };
 
@@ -42,30 +43,6 @@ BeginPage.propTypes = {
 };
 
 export default BeginPage;
-
-const Container = styled.div`
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(
-      138.12% 80.16% at 50% 50%,
-      rgba(76, 103, 241, 0.44) 1%,
-      #030d19 40%
-    ),
-    #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-`;
-
-const StLogo = styled.div`
-  display: flex;
-  gap: 1rem;
-  color: #fff;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 800;
-`;
 
 const StEllipse = styled.div`
   position: absolute;
