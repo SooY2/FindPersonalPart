@@ -73,7 +73,7 @@ const EndPage = ({ result }) => {
       </Container>
       {true && (
         <Container style={{ zIndex: '-1', gap: '2rem' }} ref={divRef}>
-          <StTitle>나의 아기사자 유형은?</StTitle>
+          <StTitle>나의 아기사자 유형은? 🦁</StTitle>
           <div>{RanderCard()}</div>
           <StExplain>
             {PARTEXPLAINS.find((item) => item.part === result).content}
