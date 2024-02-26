@@ -14,28 +14,6 @@ export const QUESTIONS = [
     ],
   },
   {
-    question: '당신이 볼펜을 구입하려고 합니다. 가장 먼저 고려할 것은?',
-    choices: [
-      {
-        part: 'ansPM',
-        content:
-          '볼펜 설명이 잘되어있고, 신경써서 만든 게 보이네 이걸로 사야겠다',
-      },
-      {
-        part: 'ansDE',
-        content: '예쁜 게 최고! 나는 당근 볼펜이 귀여워,,,그거 살래',
-      },
-      {
-        part: 'ansFE',
-        content: '볼펜 후기를 봐도 잘 모르겠네, 내가 직접 사용해 봐야겠다',
-      },
-      {
-        part: 'ansBE',
-        content: '여러 회사의 볼펜을 비교해서 가성비 있는 볼펜을 사야지',
-      },
-    ],
-  },
-  {
     question: '나의 패션 스타일은?',
     choices: [
       { part: 'ansPM', content: '단정한 게 최고!' },
@@ -56,27 +34,6 @@ export const QUESTIONS = [
       {
         part: 'ansBE',
         content: '안녕! 나는 거북이야~',
-      },
-    ],
-  },
-  {
-    question: '망해가는 음식점을 인수했을 때 당신이 가장 먼저 시작할 일은?',
-    choices: [
-      {
-        part: 'ansPM',
-        content: '왜 망했는지부터 조사하고, 큰 그림을 그려보자',
-      },
-      {
-        part: 'ansDE',
-        content: '인스타 감성 뿜뿜하는 인테리어로 바꿔야겠다!',
-      },
-      {
-        part: 'ansFE',
-        content: '이벤트를 통해 손님을 모아봐야겠어!!',
-      },
-      {
-        part: 'ansBE',
-        content: '음식을 빠르게 내보낼 수 있는 주방 기구들을 좀 사야겠어',
       },
     ],
   },
@@ -117,18 +74,6 @@ export const QUESTIONS = [
     ],
   },
   {
-    question: '내 노트북의 현재 상태는??',
-    choices: [
-      { part: 'ansPM', content: '일단 잘 돌아가면 상관없다!' },
-      { part: 'ansDE', content: '스티커로 내 노트북이라는 거 티 내기' },
-      { part: 'ansFE', content: '세상 깨끗! 지문조차 없이 반짝반짝' },
-      {
-        part: 'ansBE',
-        content: '신제품으로 이루어진 갓벽한 노트북의 모습',
-      },
-    ],
-  },
-  {
     question: '일할 때 마음이 편하게 공부할 수 있는 곳은?',
     choices: [
       {
@@ -156,18 +101,6 @@ export const QUESTIONS = [
       {
         part: 'ansBE',
         content: '갑자기 딴소리 할 때',
-      },
-    ],
-  },
-  {
-    question: '교수님이 수업을 하신다',
-    choices: [
-      { part: 'ansPM', content: '(기말 보고) 아 이게 그 말이었구나?' },
-      { part: 'ansDE', content: '...뭐라는겨?' },
-      { part: 'ansFE', content: '음음 맞지! 교수님 진짜 똑똑하시다' },
-      {
-        part: 'ansBE',
-        content: '흠.. 나는 내가 하고 싶은대로 공부할래',
       },
     ],
   },

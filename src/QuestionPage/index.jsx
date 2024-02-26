@@ -9,20 +9,7 @@ import { findPersonalPart } from '../utils/calcResult';
 
 const QuestionPage = ({ setPage, setResult }) => {
   const [step, setStep] = useState(0);
-  const [checked, setChecked] = useState([
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-  ]);
+  const [checked, setChecked] = useState(['', '', '', '', '', '', '', '']);
   const [choices, setChoices] = useState([]);
   const [isActive, setIsActive] = useState(false);
 
@@ -74,7 +61,7 @@ const QuestionPage = ({ setPage, setResult }) => {
         type='button'
         onClick={(e) => {
           e.preventDefault();
-          if (step === 11) {
+          if (step === QUESTIONS.length - 1) {
             setResult(findPersonalPart(checked));
             setPage(2);
             return;
