@@ -170,7 +170,7 @@ const StDown = styled.button`
   width: fit-content;
   border-radius: 5px;
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #b5a5ef;
 `;
