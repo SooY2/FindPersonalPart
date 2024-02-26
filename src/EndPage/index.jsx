@@ -57,15 +57,15 @@ const EndPage = ({ result }) => {
         <StLinks>
           <StBtn
             type='button'
-            onClick={() =>
-              window.open('https://likelionssu.com/recruit', '_blank')
-            }
+            onClick={() => window.open('https://likelionssu.com', '_blank')}
           >
             <p>숭실대 멋쟁이사자처럼 홈페이지 보러가기</p> &gt;
           </StBtn>
           <StBtn
             type='button'
-            onClick={() => window.open('https://likelionssu.com', '_blank')}
+            onClick={() =>
+              window.open('https://likelionssu.com/recruit', '_blank')
+            }
           >
             <p>숭실대 멋쟁이사자처럼 지원하러가기</p> &gt;
           </StBtn>
