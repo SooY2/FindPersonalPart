@@ -10,9 +10,9 @@ const setScreenSize = () => {
 
 function App() {
   useEffect(() => {
-    // window.addEventListener('resize', () => setScreenSize());
+    window.addEventListener('resize', () => setScreenSize());
     setScreenSize();
-  });
+  }, []);
   return (
     <>
       <GlobalStyles />

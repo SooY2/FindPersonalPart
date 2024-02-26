@@ -1,7 +1,7 @@
 export const QUESTIONS = [
   {
     question:
-      '친구가 밸런스 게임을 제안한다. “팔만대장경 읽기 VS 대장 내시경8만 번 하기',
+      '친구가 밸런스 게임을 제안한다. “팔만대장경 읽기 VS 대장 내시경8만 번 하기"',
     choices: [
       { part: 'ansPM', content: '아 ㅎ 뭐 아무거나;' },
       { part: 'ansDE', content: '일반 내시경이야 수면 내시경이야?' },
@@ -68,18 +68,15 @@ export const QUESTIONS = [
       },
       {
         part: 'ansDE',
-        content:
-          '다시 살아나려면 음식점 안의 디자인을 다시 구상해야 해. 인스타 감성 뿜뿜하는 음식점으로 만들어야지',
+        content: '인스타 감성 뿜뿜하는 인테리어로 바꿔야겠다!',
       },
       {
         part: 'ansFE',
-        content:
-          '일단 이벤트를 통해 손님을 모아야 해. 우리가 여는 이벤트와 가게 광고를 웹사이트에 홍보하는 법을 알아야겠다',
+        content: '이벤트를 통해 손님을 모아봐야겠어!!',
       },
       {
         part: 'ansBE',
-        content:
-          '내가 보기엔 음식이 느리게 나와서인 것 같다.. 빠르게 음식 내 보낼 수 있는 주방 기구들을 좀 사야겠어',
+        content: '음식을 빠르게 내보낼 수 있는 주방 기구들을 좀 사야겠어',
       },
     ],
   },
@@ -105,7 +102,7 @@ export const QUESTIONS = [
   },
   {
     question:
-      '마음에 드는 이성과 술을 마시고 있습니다. 취기가 확 올라와 어지러운 상태. 이때 함께 있던 이성이 당신에게 하는 행동은?',
+      '마음에 드는 이성과 술을 마시고 있습니다. 이때 당신이 함께 있는 이성에게 하는 행동은?',
     choices: [
       { part: 'ansPM', content: '취하라고 술 마시는 거지! 마시고 우리 죽쟈~~' },
       {
@@ -115,7 +112,7 @@ export const QUESTIONS = [
       { part: 'ansFE', content: '다정하게 어깨 감싸면서 괜찮냐고 물어본다' },
       {
         part: 'ansBE',
-        content: '술 깨면 머리 아플텐데 조금 쉬면서 마셔라고 한다',
+        content: '술 깨면 머리 아플텐데 조금 쉬면서 마시라고 한다',
       },
     ],
   },
@@ -158,7 +155,7 @@ export const QUESTIONS = [
       { part: 'ansFE', content: '내 말을 이해 못 할 때' },
       {
         part: 'ansBE',
-        content: '뭔 말 하는지 모를때',
+        content: '갑자기 딴소리 할 때',
       },
     ],
   },
@@ -166,7 +163,7 @@ export const QUESTIONS = [
     question: '교수님이 수업을 하신다',
     choices: [
       { part: 'ansPM', content: '(기말 보고) 아 이게 그 말이었구나?' },
-      { part: 'ansDE', content: '뭐라는겨?' },
+      { part: 'ansDE', content: '...뭐라는겨?' },
       { part: 'ansFE', content: '음음 맞지! 교수님 진짜 똑똑하시다' },
       {
         part: 'ansBE',

@@ -98,11 +98,16 @@ export default QuestionPage;
 const StContainer = styled.div`
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    138.12% 80.16% at 50% 50%,
-    rgba(76, 103, 241, 0.44) 1%,
-    #030d19 40%
-  );
+  background: linear-gradient(
+      12deg,
+      rgba(30, 14, 92, 0.9) 8.77%,
+      #151f4f 25.76%,
+      #050b11 48.76%,
+      #051221 65.77%,
+      #0a1b2f 82.65%,
+      rgba(35, 22, 88, 0.79) 102.19%
+    ),
+    #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,7 +118,7 @@ const StContainer = styled.div`
 const StQuestion = styled.h1`
   font-size: 2rem;
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 2.8rem;
   word-break: keep-all;
 `;
