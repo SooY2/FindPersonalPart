@@ -1,12 +1,23 @@
 import styled from 'styled-components';
-import { BE, DE, FE, PM } from '../assets/imgs/0_index';
+import { BE, DE, FE, PM, front } from '../assets/imgs/0_index';
 import { saveAs } from 'file-saver';
 import html2canvas from 'html2canvas';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { PARTEXPLAINS } from '../constants/PARTEXPLAINS';
+import * as St from '../commonStyles';
+import { Logo } from '../assets/svgs/0_index';
 
 const EndPage = ({ result }) => {
   const divRef = useRef(null);
+  const [easterEggCnt, setEasterEggCnt] = useState(0);
+  const [easterEgg, setEasterEgg] = useState(false);
+
+  useEffect(() => {
+    if (easterEggCnt === 12) {
+      setEasterEgg(true);
+    }
+  }, [easterEggCnt]);
+
   const RanderCard = () => {
     switch (result) {
       case 'ansPM':
@@ -14,7 +25,9 @@ const EndPage = ({ result }) => {
       case 'ansDE':
         return <StIMG src={DE} />;
       case 'ansFE':
-        return <StIMG src={FE} />;
+        return (
+          <StIMG src={FE} onClick={() => setEasterEggCnt(easterEggCnt + 1)} />
+        );
       case 'ansBE':
         return <StIMG src={BE} />;
       default:
@@ -36,7 +49,29 @@ const EndPage = ({ result }) => {
       console.error('Error converting div to image:', error);
     }
   };
-  return (
+  return easterEgg ? (
+    <Container>
+      <St.StLogo>
+        <Logo />
+        <h1>LIKELION SSU</h1>
+      </St.StLogo>
+      <StIMG src={front} />
+      <StExplain>
+        프론트는 귀엽고 이쁘고 착하고 다정한 사람들만 모여있는 최강 푸론트
+        어쩌구 저쩌구 푸론트 보고싶당
+      </StExplain>
+      <StLinks>
+        <StBtn
+          type='button'
+          onClick={() =>
+            window.open('https://likelionssu.com/recruit', '_blank')
+          }
+        >
+          <p>숭멋사 지원하고 내 맘대로 이스터에그 넣기</p> &gt;
+        </StBtn>
+      </StLinks>
+    </Container>
+  ) : (
     <>
       <Container>
         <div
