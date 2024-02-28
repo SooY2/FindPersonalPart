@@ -25,8 +25,8 @@ export const QUESTIONS = [
   {
     question: '컴퓨터 할 때 내 자세는?',
     choices: [
-      { part: 'ansPM', content: '반쯤 누워서 뚜들뚜등' },
-      { part: 'ansDE', content: '컴퓨터에 빨려들어가기 일보직전이야.' },
+      { part: 'ansPM', content: '반쯤 누워서 뚜들뚜들' },
+      { part: 'ansDE', content: '컴퓨터에 빨려들어가기 일보직전이야' },
       {
         part: 'ansFE',
         content: '거북이 되어가는 중.. 되돌릴 수는 없을 것 같아',
@@ -43,12 +43,11 @@ export const QUESTIONS = [
       { part: 'ansPM', content: '밥은 다같이 먹어야지~ 사람들 다 모으기' },
       {
         part: 'ansDE',
-        content:
-          '친한 사람들이랑 시간 내서 인스타 올리기 좋은 예쁜 카페 가야징 기대된다!',
+        content: '시간 내서 인스타 올리기 좋은 예쁜 카페 가야징 기대된다!',
       },
       {
         part: 'ansFE',
-        content: '내 페이스대로 친한 사람들이랑만 아무거나 먹을래',
+        content: '내 페이스대로 친한 사람들이랑 아무거나 먹을래',
       },
       {
         part: 'ansBE',
@@ -92,27 +91,33 @@ export const QUESTIONS = [
       },
     ],
   },
+  // {
+  //   question: '지금 내 손목에 있는 것은?',
+  //   choices: [
+  //     { part: 'ansPM', content: '고전 시계가 시계지. 손목시계' },
+  //     { part: 'ansDE', content: '간zㅣ는 역시 애플워치' },
+  //     { part: 'ansFE', content: '성능갑! 가성비갑! 갤럭시 워치가 짱이지' },
+  //     {
+  //       part: 'ansBE',
+  //       content: '액세서리는 사치일뿐.. 아무것도 존재하지 않아',
+  //     },
+  //   ],
+  // },
   {
-    question: '대화할때 화가 나는 포인트는?',
+    question: '마지막 질문! 테스트를 하며 든 생각은?',
     choices: [
-      { part: 'ansPM', content: '나만 빼고 얘기할때' },
-      { part: 'ansDE', content: '대충대충 얘기할 때' },
-      { part: 'ansFE', content: '내 말을 이해 못 할 때' },
       {
-        part: 'ansBE',
-        content: '갑자기 딴소리 할 때',
+        part: 'ansPM',
+        content: '~이런 질문들도 추가하면 재밌겠다!!',
       },
-    ],
-  },
-  {
-    question: '지금 내 손목에 있는 것은?',
-    choices: [
-      { part: 'ansPM', content: '고전 시계가 시계지. 손목시계' },
-      { part: 'ansDE', content: '간zㅣ는 역시 애플워치' },
-      { part: 'ansFE', content: '성능갑! 가성비갑! 갤럭시 워치가 짱이지' },
+      {
+        part: 'ansDE',
+        content: '결과 페이지 기대된당 숭멋사 태그해서 인스타 올려야지!',
+      },
+      { part: 'ansFE', content: '흐음,, 어딘가에 이스터에그가 있을거같은데,,' },
       {
         part: 'ansBE',
-        content: '액세서리는 사치일뿐.. 아무것도 존재하지 않아',
+        content: '어떤 알고리즘으로 결과를 내는걸까??',
       },
     ],
   },
