@@ -50,7 +50,7 @@ const EndPage = ({ result }) => {
     }
   };
   return easterEgg ? (
-    <Container style={{ gap: '3rem' }}>
+    <Container style={{ padding: '2rem' }}>
       <St.StLogo>
         <Logo />
         <h1>LIKELION SSU</h1>
