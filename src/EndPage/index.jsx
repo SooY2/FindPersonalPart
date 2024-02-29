@@ -50,7 +50,7 @@ const EndPage = ({ result }) => {
     }
   };
   return easterEgg ? (
-    <Container>
+    <Container style={{ gap: '3rem' }}>
       <St.StLogo>
         <Logo />
         <h1>LIKELION SSU</h1>
@@ -58,7 +58,8 @@ const EndPage = ({ result }) => {
       <StIMG src={front} />
       <StExplain>
         프론트는 귀엽고 이쁘고 착하고 다정한 사람들만 모여있는 최강 푸론트
-        어쩌구 저쩌구 푸론트 보고싶당
+        어쩌구 저쩌구 푸론트 보고시푸당 정일우(a.k.a 이.준.규) 한아름송이 이도현
+        박효신 막냉이아리 삐약이 프팥장(프리티 파트장ㅋ) 레츠고
       </StExplain>
       <StLinks>
         <StBtn
