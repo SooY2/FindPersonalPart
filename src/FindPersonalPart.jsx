@@ -30,7 +30,7 @@ export default FindPersonalPart;
 const Container = styled.div`
   width: 100vw;
   height: calc(var(--vh, 1vh) * 100);
-  max-width: 480px;
+  max-width: 860px;
   margin: 0 auto;
   overflow: hidden;
 `;
